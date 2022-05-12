@@ -65,6 +65,7 @@ RUN \
     samba-client \
     sudo \
     tar \
+    nano \
     unzip && \
   echo "**** compile smbclient ****" && \
   git clone https://github.com/eduardok/libsmbclient-php.git /tmp/smbclient && \
